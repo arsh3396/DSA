@@ -15,9 +15,9 @@ public class Pattern1 {
             System.out.println();
         }
 
-        int n = sc.nextInt();
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        int n1 = sc.nextInt();
+        for (int i = 0; i < n1; i++) {
+            for (int j = 0; j < n1; j++) {
                 System.out.print(String.valueOf(i)+String.valueOf(j) + " ");
             }
             System.out.println();
@@ -31,8 +31,8 @@ public class Pattern1 {
             System.out.print(" ");
         }
 
-        int rows = sc.nextInt();
-        for (int i = 1; i <= rows; i++) {
+        int r = sc.nextInt();
+        for (int i = 1; i <= r; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
@@ -40,8 +40,8 @@ public class Pattern1 {
         }
 
         int start = 0;
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
+        int n9 = sc.nextInt();
+        for (int i = 1; i <= n9; i++) {
             int num = start;
             for (int j = 1; j <= i; j++) {
                 System.out.print(num + " ");
@@ -51,39 +51,37 @@ public class Pattern1 {
             System.out.println();
         }
 
-        System.out.println(divisonOfTwoNumber(5, 2));
-
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
+        int n2 = sc.nextInt();
+        for (int i = 1; i <= n2; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
         }
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n-i; j++) {
+        for (int i = 0; i < n2; i++) {
+            for (int j = 0; j < n2-i; j++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
         }
 
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
+        int n3 = sc.nextInt();
+        for (int i = 1; i <= n3; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
         }
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n-i+1; j++) {
+        for (int i = 1; i <= n3; i++) {
+            for (int j = 1; j <= n3-i+1; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
         }
 
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n-i; j++) {
+        int n4 = sc.nextInt();
+        for (int i = 1; i <= n4; i++) {
+            for (int j = 1; j <= n4-i; j++) {
                 System.out.print(" ");
             }
             for (int k = 1; k <= i; k++) {
@@ -91,39 +89,31 @@ public class Pattern1 {
             }
             System.out.println();
         }
-        int n = sc.nextInt();
-        for (int i = 0; i < n; i++) {
+        int n5 = sc.nextInt();
+        for (int i = 0; i < n5; i++) {
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= n-i; k++) {
+            for (int k = 1; k <= n5-i; k++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
-        int n = sc.nextInt();
-        for (int i = 0; i < n; i++) {
+        int n6 = sc.nextInt();
+        for (int i = 0; i < n6; i++) {
             char ch = 'A';
-            for (int j = 0; j < n-i; j++) {
+            for (int j = 0; j < n6-i; j++) {
                 System.out.print(ch++);
             }
             System.out.println();
         }
 
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= (n-i); j++) {
-                System.out.print(" ");
-            }
-            for (int k = 1; k <= 2*i-1; k++) {
-                if ()
-            }
-        }
 
-        int n = sc.nextInt();
+
+        int n7 = sc.nextInt();
         int c1 = 0, c2 = 0;
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n7; i++) {
             for (int l = 0; l < 2; l++) {
                 for (int j = 1; j <= 2*i; j++) {
                     System.out.print("* ");
@@ -132,7 +122,7 @@ public class Pattern1 {
             }
         }
 
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n7; i++) {
             for (int j = 1; j <= i; j++) {
                 if (j == 1 || j == i || i == n) {
                     System.out.print("*");
@@ -145,12 +135,12 @@ public class Pattern1 {
         }
 
 //        hollow pyramid
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= (n-i); j++) {
+        for (int i = 1; i <= n7; i++) {
+            for (int j = 1; j <= (n7-i); j++) {
                 System.out.print(" ");
             }
             for(int k = 1; k <= i; k++) {
-                if (k == 1 || k == i || i == n) {
+                if (k == 1 || k == i || i == n7) {
                     System.out.print("* ");
                 }
                 else {
