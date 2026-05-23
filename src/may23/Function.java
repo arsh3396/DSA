@@ -67,22 +67,22 @@ public class Function {
          */
 
 //        // used this keyword
-//        Checking ch = new Checking(1, 2, 3);
-//        ch.add();
-//
-////        table of 10
-//        tableOfNum(sc.nextInt());
-//
-////        area of circle
-//        System.out.println("Area of Circle is:" + areaOfCircle(sc.nextFloat()));
-//
-//        System.out.println(celciusToFehrenhite(sc.nextDouble()));
-//
-//        System.out.println(isVowel('O'));
-//
-//        System.out.println(isPrime(51));
+        Checking ch = new Checking(1, 2, 3);
+        ch.add();
 
-//        System.out.println(stringContainsVowel(sc.next()));
+//        table of 10
+        tableOfNum(sc.nextInt());
+
+//        area of circle
+        System.out.println("Area of Circle is:" + areaOfCircle(sc.nextFloat()));
+
+        System.out.println(celciusToFehrenhite(sc.nextDouble()));
+
+        System.out.println(isVowel('O'));
+
+        System.out.println(isPrime(51));
+
+        System.out.println(stringContainsVowel(sc.next()));
 
 //        accessing the function of the another file
         Staircase s = new Staircase();
