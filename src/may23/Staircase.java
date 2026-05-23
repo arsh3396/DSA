@@ -16,4 +16,8 @@ public class Staircase {
             }
         }
     }
+
+    public void Hello(){
+        System.out.println("Hello");
+    }
 }
