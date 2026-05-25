@@ -1,0 +1,47 @@
+function is block of code which performs a particular task
+    - benefits:
+        - reusability
+        - modularity : breaking the big problem in small parts
+        - readability
+        - easy to debug
+
+component of function:
+    - access modifier
+    - static/not static
+    - return type
+    - name
+    - list of parameter
+    - body of function
+
+context of the function:
+
+types of function:
+
+lvt, how objects are stored?, what is stackframe?
+
+call by value, and call by reference
+
+parameterized and non-parameterized function
+recursive function
+    - function calling itself until base condition is not met.
+
+parameter and arguments:
+    - parameter: which is in function body.
+    - argument: which will be provided during function call.
+
+
+two types of memory in java:
+    1. stack memory:
+        - stores primitive data type and address of the objects which live on the heap.
+    2. heap memory:
+        - stores all objects which was created with "new" keyword.
+
+function overloading:
+    - same name and different parameter list.
+    - compile time polymorphism.
+
+function overriding:
+    - parent class and child class have same method, with same parameter and same return type.
+    - but child class method overrides the parent class's method.
+    - runtime polymorphism
+
