@@ -2,7 +2,7 @@ package may25;
 
 import java.util.*;
 
-public class Replace {
+public class ReplaceZero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,8 +17,7 @@ public class Replace {
         int power = digitCount;
 
         while (num > 0) {
-            int rem = num % 10;
-            if (rem == 0) rem = 5;
+            int rem = (num % 10 == 0)? 5 : num % 10;
             sum += (rem * (int)Math.pow(10, digitCount - power));
             power--;
             num /= 10;
