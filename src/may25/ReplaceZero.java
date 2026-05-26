@@ -24,6 +24,5 @@ public class ReplaceZero {
         }
 
         return sum;
-
     }
 }
