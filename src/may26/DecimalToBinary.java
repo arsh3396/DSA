@@ -33,4 +33,5 @@ public class DecimalToBinary {
         }
         return total;
     }
+
 }
