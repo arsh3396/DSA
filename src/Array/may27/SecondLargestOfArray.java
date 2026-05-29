@@ -19,7 +19,7 @@ public class SecondLargestOfArray {
                 secondLargest = largest;
                 largest = i;
             }
-            else if (i < largest && i > secondLargest) {
+            else if (i > secondLargest) {
                 secondLargest = i;
             }
         }

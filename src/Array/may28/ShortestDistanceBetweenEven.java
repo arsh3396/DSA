@@ -12,20 +12,20 @@ public class ShortestDistanceBetweenEven {
     }
 
     static int shortestDistance(int[] arr) {
-        int even = 0;
-        int distance = Integer.MAX_VALUE, prev = -1;
+        int evenCount = 0;
+        int distanceBWEven = Integer.MAX_VALUE, prevIndex = -1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 == 0) {
-                if (prev == -1) {
-                    prev = i;
+                if (prevIndex == -1) {
+                    prevIndex = i;
                 }
                 else {
-                    distance = Math.min(distance, i - prev);
-                    prev = i;
+                    distanceBWEven = Math.min(distanceBWEven, i - prevIndex);
+                    prevIndex = i;
                 }
-                even++;
+                evenCount++;
             }
         }
-        return (even < 2)? -1 : distance;
+        return (evenCount < 2)? -1 : distanceBWEven;
     }
 }
