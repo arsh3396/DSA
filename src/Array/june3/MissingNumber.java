@@ -8,6 +8,7 @@ public class MissingNumber {
 
         int[] arr = {1, 2, 3, 4, 6, 7, 9};
         missingNumberr(arr, 10);
+
         sc.close();
     }
 
